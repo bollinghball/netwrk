@@ -30,6 +30,7 @@ header {
 	background-color: black;
 	display: block;
 	padding-right: 3em;
+	text-align: center;
 }
 
 .first-nav {
@@ -53,7 +54,7 @@ header {
 }
 
 .first-nav img {
-	display: block;
+	display: inline-block;
 	width: 20px;
 	height: 20px;
 	width: 100%;
@@ -508,12 +509,13 @@ button {
 }
 
 footer {
+	text-align: center;
 	background-image: url(netwrk/assets/images/bg.png);
 	width: 100%;
 }
 
 .last-nav {
-	display: block;
+	display: inline-block;
 	width: 100%;
 }
 
@@ -531,7 +533,6 @@ footer {
 .last-nav a {
 	display: block;
 	color: black;
-	padding: 1em;
 	font-size: 10px;
 	font-family: 'Montserrat-Light', sans-serif;
 	text-decoration: none;
@@ -592,8 +593,7 @@ footer {
 
 @media(min-width: 500px) {
 	.first-nav {
-		float: left;
-		height: 50px;
+		display: inline-block;
 		width: 100%;
 	}
 
@@ -605,32 +605,23 @@ footer {
 	}
 
 	.first-nav ul {
-		height: 50px;
 		width: 100%;
-		float: left;
-		margin-left: 20%;
+		display: inline-block;
 	}
 
 	.first-nav img {
-		float: left;
 	    width: 20px;
 	    height: 20px;
-	    margin: .5em;
 	}
 
 	.first-nav li {
-		float:left;
 		list-style-type: none;
-		height: 70px;
-		padding: 1em 0em 2em 0;
+		display: inline-block;
 	}
 
 	.last-nav li {
-		float:left;
 		list-style-type: none;
-		height: 50px;
-		width: 18%;
-		padding: 1em 0 2em 0;
+		display: inline-block;
 	}
 
 	.descript p {
@@ -663,16 +654,13 @@ footer {
 	}
 
 	.last-nav ul {
-		height: 50px;
 		width: 100%;
-		float: left;
+		display: inline-block;
 	}
 
 	.last-nav img {
-		display: block;
-	    width: 30%;
+		display: inline-block;
 	    height: 20px;
-	    margin-left: 35%;
 	}
 
 	.what {
@@ -882,7 +870,6 @@ footer {
 	.third-time {
 		float: left;
 		width: 50%;
-		height: 400px;
 	}
 
 	.third-time h2 {
@@ -893,7 +880,6 @@ footer {
 	.info {
 		border-left: 1px #eee solid;
 		border-bottom: none;
-		height: 400px;
 		background-color: #FCFCFC;
 	}
 
@@ -902,9 +888,11 @@ footer {
 	}
 
 	.whole {
-		height: 500px;
 		background-color: #FCFCFC;
 		padding: 1em;
+		width: 100%;
+		clear: both;
+    	display: inline-block;
 	}
 
 	.your-name {
@@ -966,18 +954,11 @@ footer {
 	}
 }	
 
-@media (min-width: 550px) {
-	.first-nav ul {
-		margin-left: 25%;
-	}
-}
-
 @media (min-width: 1000px) {
 	.first-nav ul {
 		height: 50px;
 		width: 100%;
-		float: left;
-		margin-left: 30%;
+		display: inline-block;
 	}
 
 	.blue h2 {

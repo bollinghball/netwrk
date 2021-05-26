@@ -33,17 +33,19 @@ header {
 }
 
 .first-nav {
-	display: block;
+	display: flex;
 	width: 100%;
 	list-style-type: none;
+	justify-content: center;
+	align-content: center;
 }
 
 .first-nav ul {
-	margin: 0;
+	/* margin-bottom: 1rem; */
 }
 
 .first-nav a {
-	display: block;
+	/* display: block; */
 	color: #d3d3d3;
 	padding: 1em;
 	font-size: 10px;
@@ -53,10 +55,10 @@ header {
 }
 
 .first-nav img {
-	display: block;
-	width: 20px;
-	height: 20px;
-	width: 100%;
+	/* width: 30px;
+	height: 30px; */
+	/* margin-bottom: 5rem; */
+	/* width: 100%; */
 }
 
 body {
@@ -76,6 +78,7 @@ body {
 .blue h1 {
 	margin-bottom: .5em;
 	letter-spacing: 2px;
+	color: #333;
 }
 
 .blue h2 {
@@ -109,7 +112,7 @@ body {
 	font-family: 'Domine-Regular';
 	color: gray;
     line-height: 15px;
-	font-size: 10px;
+	font-size: 12px;
 	text-align: center;
 	padding: 2em;
 }
@@ -117,8 +120,8 @@ body {
 .what {
 	font-size: 10px;
     text-align: center;
-    background-image: url(netwrk/assets/images/bg.png);
-	background-color: white;
+    /* background-image: url(netwrk/assets/images/bg.png); */
+	background-color: #F5F5F5;
 	background-size: contain;
 	width: 100%;
 	display: block;
@@ -128,6 +131,7 @@ body {
 .what h2 {
 	font-family: 'Montserrat-Regular';
 	letter-spacing: 1px;
+	color: #333;
 }
 
 .what-dot {
@@ -137,6 +141,7 @@ body {
 .what h3{
 	letter-spacing: 1px;
 	font-family: 'Montserrat-Regular';
+	color: #333;
 }
 
 .what p {
@@ -404,12 +409,16 @@ h3 + #new {
 .open {
 	background-color: white;
 	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
 }
 
 .open h3 {
 	font-family: 'Montserrat-Regular';
 	letter-spacing: 1px;
 	text-align: center;
+	color: #333;
 }
 
 .we-dot {
@@ -426,10 +435,12 @@ h3 + #new {
 }
 
 .open img {
-    margin-top: 20px;
-    height: 50px;
-    width: 100%;
-    display: inline-block;
+    /* margin-top: 20px; */
+    /* height: 50px;
+    width: 50px; */
+	/* align-content: center; */
+    /* display: inline-block; */
+	border-radius: 50%;
 }
 
 .sec-sec {
@@ -500,7 +511,7 @@ textarea {
     width: 200px;
 }
 
-button {
+.shout a {
 	background-color: #1CAFC2;
 	font-family: 'Montserrat-Light';
 	color: white;
@@ -508,24 +519,27 @@ button {
 }
 
 footer {
-	background-image: url(netwrk/assets/images/bg.png);
+	/* background-image: url(netwrk/assets/images/bg.png); */
 	width: 100%;
+	background-color: #F5F5F5;
 }
 
 .last-nav {
-	display: block;
-	width: 100%;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	/* width: 100%; */
 }
 
 .last-nav ul {
-	display: inline;
-	margin: 0;
+	/* display: inline; */
+	/* margin: 0; */
 	list-style-type: none;
 }
 
 .last-nav li {
-	padding: 1em;
-	display: inline;
+	/* padding: 1em; */
+	/* display: inline; */
 }
 
 .last-nav a {
@@ -539,15 +553,16 @@ footer {
 }
 
 .last-nav img {
-	display: block;
-	width: 20px;
-	height: 20px;
-	width: 100%;
+	/* display: block; */
+	width: 50px;
+	height: 50px;
+	/* width: 100%; */
 }
 
 .recent {
 	padding: 1em;
 	display: inline-block;
+	background-color: white;
 }
 
 .recent p {
@@ -576,6 +591,7 @@ footer {
 
 .recent-dot {
 	display: none;
+	color: #333;
 }
 
 .jan h3 {
@@ -613,9 +629,9 @@ footer {
 
 	.first-nav img {
 		float: left;
-	    width: 20px;
-	    height: 20px;
-	    margin: .5em;
+	    width: 30px;
+	    height: 30px;
+	    margin: .5rem;
 	}
 
 	.first-nav li {
@@ -670,9 +686,9 @@ footer {
 
 	.last-nav img {
 		display: block;
-	    width: 30%;
-	    height: 20px;
-	    margin-left: 35%;
+	    width: 100%;
+	    height: 50px;
+	    /* margin-left: 35%; */
 	}
 
 	.what {
@@ -995,6 +1011,7 @@ footer {
 	.home h1 {
 		font-size: 40px;
 		letter-spacing: 2px;
+		color: #333;
 	}
 
 	.home h2 {
@@ -1103,7 +1120,7 @@ footer {
 	}
 
 	.descript p {
-    	font-size: 12px;
+    	font-size: 16px;
     	line-height: 20px;
 	}
 

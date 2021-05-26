@@ -34,30 +34,33 @@ header {
 }
 
 .first-nav {
-	display: flex;
-	width: 100%;
+	/* display: flex; */
+	/* width: 100%; */
 	list-style-type: none;
-	justify-content: center;
-	align-content: center;
+	/* justify-content: center;
+	align-items: center; */
 }
 
 .first-nav ul {
-	/* margin-bottom: 1rem; */
+	padding-top: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .first-nav a {
 	/* display: block; */
 	color: #d3d3d3;
 	padding: 1em;
-	font-size: 10px;
+	font-size: 12px;
 	font-family: 'Montserrat-Light', sans-serif;
 	text-decoration: none;
 	text-align: center;
 }
 
 .first-nav img {
-	/* width: 30px;
-	height: 30px; */
+	width: 30px;
+	height: 30px;
 	/* margin-bottom: 5rem; */
 	/* width: 100%; */
 }
@@ -69,7 +72,7 @@ body {
 .blue {
 	background-color: blue;
 	background: linear-gradient(#1EB2C5, #65DFEE);
-	font-size: 10px;
+	font-size: 12px;
 	font-family: 'Montserrat-Regular';
 	text-align: center;
 	padding: 3em;
@@ -97,7 +100,7 @@ body {
 .consult {
 	background-color: blue;
     background: linear-gradient(#26B9CB, #62DEED);
-    font-size: 10px;
+    font-size: 12px;
     font-family: 'Montserrat-Regular';
     text-align: center;
     padding: 2em;
@@ -119,7 +122,7 @@ body {
 }
 
 .what {
-	font-size: 10px;
+	font-size: 12px;
     text-align: center;
     /* background-image: url(netwrk/assets/images/bg.png); */
 	background-color: #F5F5F5;
@@ -149,7 +152,7 @@ body {
 	font-family: 'Domine-Regular';
 	color: gray;
     line-height: 15px;
-	font-size: 10px;
+	font-size: 12px;
 	text-align: center;
 }
 
@@ -165,7 +168,7 @@ body {
 .curric {
 	display: block;
 	padding: 2em;
-	font-size: 10px;
+	font-size: 12px;
     text-align: center;
 }
 
@@ -187,7 +190,7 @@ body {
 	font-family: 'Domine-Regular';
 	color: gray;
     line-height: 15px;
-	font-size: 10px;
+	font-size: 12px;
 	text-align: left;
 	display: inline-block;
 	width: 100%;
@@ -196,7 +199,7 @@ body {
 .curric a {
 	color:gray;
 	font-family: 'Domine-Regular';
-	font-size: 10px;
+	font-size: 12px;
 	float: left;
 	padding-bottom: 2em;
 }
@@ -209,7 +212,7 @@ body {
 .our-spec {
 	display: block;
 	padding: 2em;
-	font-size: 10px;
+	font-size: 12px;
     text-align: center;
 }
 
@@ -218,7 +221,7 @@ body {
 }
 
 h3 + #new {
-	font-size: 10px;
+	font-size: 12px;
 	color: white;
 	text-shadow: 1px 1px black;
 	background-color: #5DD7AC;
@@ -295,7 +298,7 @@ h3 + #new {
 	color: white;
 	letter-spacing: 1px;
 	padding: 1em;
-	font-size: 10px;
+	font-size: 12px;
 }
 
 .consult h1 {
@@ -309,14 +312,14 @@ h3 + #new {
 	color: white;
 	letter-spacing: 1px;
 	padding: 1em;
-	font-size: 10px;
+	font-size: 12px;
 }
 
 .third-sec {
 	background-color: white;
 	color: black;
 	font-family: 'Montserrat-Regular';
-	font-size: 10px;
+	font-size: 12px;
 	letter-spacing: 1px;
 	text-align: center;
 	padding: 2em;
@@ -351,14 +354,14 @@ h3 + #new {
 }
 
 .patterned {
-	background-image: url(netwrk/assets/images/bg.png);
-	background-color: white;
+	/* background-image: url(netwrk/assets/images/bg.png); */
+	background-color: #f3f3f3;
 	background-size: contain;
 	width: 100%;
 	display: block;
     color: black;
     font-family: 'Montserrat-Regular';
-    font-size: 10px;
+    font-size: 12px;
     letter-spacing: 1px;
     text-align: center;
     padding: 2em;
@@ -409,10 +412,6 @@ h3 + #new {
 
 .open {
 	background-color: white;
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-content: center;
 }
 
 .open h3 {
@@ -435,13 +434,11 @@ h3 + #new {
     padding: 0 2em 0 2em;
 }
 
-.open img {
-    /* margin-top: 20px; */
-    /* height: 50px;
-    width: 50px; */
-	/* align-content: center; */
-    /* display: inline-block; */
-	border-radius: 50%;
+.openImage {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin-top: 2rem;
 }
 
 .sec-sec {
@@ -449,7 +446,7 @@ h3 + #new {
 	background-color: white;
 	color: black;
 	font-family: 'Montserrat-Regular';
-	font-size: 10px;
+	font-size: 12;
 	letter-spacing: 1px;
 	text-align: center;
 }
@@ -461,7 +458,7 @@ h3 + #new {
 
 .sec-sec img {
 	width: 75%;
-	margin-bottom: 10px;
+	margin-bottom: 12px;
 }
 
 .sec-sec p {
@@ -482,7 +479,7 @@ h3 + #new {
 	background-color: #FCFCFC;
 	color: black;
 	font-family: 'Montserrat-Regular';
-	font-size: 10px;
+	font-size: 12px;
 	letter-spacing: 1px;
 	text-align: center;
 	padding: 2em;
@@ -526,27 +523,27 @@ footer {
 }
 
 .last-nav {
-	display: flex;
-	align-content: center;
-	justify-content: center;
 	/* width: 100%; */
 }
 
 .last-nav ul {
 	/* display: inline; */
 	/* margin: 0; */
+	display: flex;
+	align-content: center;
+	justify-content: center;
 	list-style-type: none;
 }
 
 .last-nav li {
-	/* padding: 1em; */
+	padding: 1em;
 	/* display: inline; */
 }
 
 .last-nav a {
-	display: block;
+	/* display: block; */
 	color: black;
-	font-size: 10px;
+	font-size: 12px;
 	font-family: 'Montserrat-Light', sans-serif;
 	text-decoration: none;
 	text-align: center;
@@ -608,8 +605,8 @@ footer {
 
 @media(min-width: 500px) {
 	.first-nav {
-		display: inline-block;
-		width: 100%;
+		/* display: inline-block; */
+		/* width: 100%; */
 	}
 
 	header {
@@ -620,25 +617,25 @@ footer {
 	}
 
 	.first-nav ul {
-		width: 100%;
-		display: inline-block;
+		/* width: 100%;
+		display: inline-block; */
 	}
 
 	.first-nav img {
-		float: left;
+		/* float: left;
 	    width: 30px;
 	    height: 30px;
-	    margin: .5rem;
+	    margin: .5rem; */
 	}
 
 	.first-nav li {
 		list-style-type: none;
-		display: inline-block;
+		/* display: inline-block; */
 	}
 
 	.last-nav li {
 		list-style-type: none;
-		display: inline-block;
+		/* display: inline-block; */
 	}
 
 	.descript p {
@@ -671,14 +668,14 @@ footer {
 	}
 
 	.last-nav ul {
-		width: 100%;
-		display: inline-block;
+		/* width: 100%;
+		display: inline-block; */
 	}
 
 	.last-nav img {
-		display: block;
-	    width: 100%;
-	    height: 50px;
+		/* display: block; */
+	    /* width: 100%;
+	    height: 50px; */
 	    /* margin-left: 35%; */
 	}
 
@@ -975,9 +972,9 @@ footer {
 
 @media (min-width: 1000px) {
 	.first-nav ul {
-		height: 50px;
+		/* height: 50px;
 		width: 100%;
-		display: inline-block;
+		display: inline-block; */
 	}
 
 	.blue h2 {
